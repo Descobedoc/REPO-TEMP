@@ -14,7 +14,7 @@ def fizzbuzz():
             print(second_string)
         else:
             print(index)
-            number = number + 1
-    print(number)
+            number += 1
+    return print(number)
 
 fizzbuzz()
